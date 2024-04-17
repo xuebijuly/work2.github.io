@@ -1,0 +1,81 @@
+.s{
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin: 0 auto; 
+}
+.background{
+  background-image: url("素材/蓝色背景.jpg");
+  background-size: cover;
+  justify-content: center;
+}
+.container {
+  max-width: 800px; /* 设置最大宽度，使内容在大屏幕上不至于过于宽松 */
+  margin: 0 auto; /* 居中显示 */
+  /* 添加内边距，增加内容与边框的距离 */
+
+}
+.video-body{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.video {
+  margin-bottom: 20px; /* 视频下方留出一些间距 */
+
+}
+
+.accordion-body {
+  color: #f9f9f9;
+  overflow: hidden;
+ background-color: rgba(0, 0, 0, 0.5);
+ border: none;
+
+}
+
+.accordion-body p {
+  margin-bottom: 15px; /* 段落之间留出一些间距 */
+  line-height: 1.6; /* 设置行高，增加可读性 */
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.large-text {
+  font-size: 1.2em; /* 设置大字体大小 */
+  font-weight: bold; /* 设置加粗 */
+}
+
+.accordion-body code {
+  font-family: Consolas, monospace; /* 设置等宽字体 */
+  background-color: #f0f0f0; /* 设置背景颜色 */
+ /* 添加内边距 */
+  border-radius: 3px; /* 添加圆角 */
+}
+
+/*技能介绍*/
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.table th,
+    .table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .table th:first-child,
+    .table td:first-child {
+        width: 25%; /* Adjust the width as needed */
+    }
+    .table th {
+        background-color: #f2f2f2;
+    }
