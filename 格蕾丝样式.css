@@ -1,6 +1,6 @@
 
 .background{
-  background-image: url("素材/蓝色背景.jpg");
+  background-image: url("蓝色背景.jpg");
   background-size: cover;
   justify-content: center;
 }
@@ -195,7 +195,7 @@ video {
 
 
 .background1 {
-  background-image: url("素材/蓝色背景.png");
+  background-image: url("蓝色背景.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -219,7 +219,7 @@ video {
 }
 
 .background2 {
-  background-image: url("素材/蓝色相框.png");
+  background-image: url("蓝色相框.png");
   background-size: 65% 100%;
   background-repeat: no-repeat;
   display: flex;
